@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "GhdIhGjpKDQ=",
+  "success": true,
+  "projectFilePath": "/Users/Martin/Development/trialProjects/creditcards/AppWebApi/AppWebApi.csproj",
+  "expectedPackageFiles": [
+    "/Users/Martin/.nuget/packages/microsoft.aspnetcore.openapi/9.0.4/microsoft.aspnetcore.openapi.9.0.4.nupkg.sha512",
+    "/Users/Martin/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
