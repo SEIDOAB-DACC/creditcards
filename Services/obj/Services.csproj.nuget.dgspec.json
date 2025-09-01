@@ -1,0 +1,526 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Martin/Development/trialProjects/creditcards/Services/Services.csproj": {}
+  },
+  "projects": {
+    "/Users/Martin/Development/trialProjects/creditcards/Configuration/Configuration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Martin/Development/trialProjects/creditcards/Configuration/Configuration.csproj",
+        "projectName": "Configuration",
+        "projectPath": "/Users/Martin/Development/trialProjects/creditcards/Configuration/Configuration.csproj",
+        "packagesPath": "/Users/Martin/.nuget/packages/",
+        "outputPath": "/Users/Martin/Development/trialProjects/creditcards/Configuration/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/Martin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Azure.Extensions.AspNetCore.Configuration.Secrets": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.15.0, )"
+            },
+            "Azure.Security.KeyVault.Secrets": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
+            "Microsoft.AspNetCore.Cryptography.KeyDerivation": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.AspNetCore.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.Extensions.Configuration.UserSecrets": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Martin/Development/trialProjects/creditcards/DbContext/DbContext.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Martin/Development/trialProjects/creditcards/DbContext/DbContext.csproj",
+        "projectName": "DbContext",
+        "projectPath": "/Users/Martin/Development/trialProjects/creditcards/DbContext/DbContext.csproj",
+        "packagesPath": "/Users/Martin/.nuget/packages/",
+        "outputPath": "/Users/Martin/Development/trialProjects/creditcards/DbContext/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/Martin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/Martin/Development/trialProjects/creditcards/Configuration/Configuration.csproj": {
+                "projectPath": "/Users/Martin/Development/trialProjects/creditcards/Configuration/Configuration.csproj"
+              },
+              "/Users/Martin/Development/trialProjects/creditcards/DbModels/DbModels.csproj": {
+                "projectPath": "/Users/Martin/Development/trialProjects/creditcards/DbModels/DbModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.IdentityModel.JsonWebTokens": {
+              "target": "Package",
+              "version": "[8.14.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.14.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Martin/Development/trialProjects/creditcards/DbModels/DbModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Martin/Development/trialProjects/creditcards/DbModels/DbModels.csproj",
+        "projectName": "DbModels",
+        "projectPath": "/Users/Martin/Development/trialProjects/creditcards/DbModels/DbModels.csproj",
+        "packagesPath": "/Users/Martin/.nuget/packages/",
+        "outputPath": "/Users/Martin/Development/trialProjects/creditcards/DbModels/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/Martin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/Martin/Development/trialProjects/creditcards/Configuration/Configuration.csproj": {
+                "projectPath": "/Users/Martin/Development/trialProjects/creditcards/Configuration/Configuration.csproj"
+              },
+              "/Users/Martin/Development/trialProjects/creditcards/Models/Models.csproj": {
+                "projectPath": "/Users/Martin/Development/trialProjects/creditcards/Models/Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "EFCore.CheckConstraints": {
+              "target": "Package",
+              "version": "[9.1.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Martin/Development/trialProjects/creditcards/DbRepos/DbRepos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Martin/Development/trialProjects/creditcards/DbRepos/DbRepos.csproj",
+        "projectName": "DbRepos",
+        "projectPath": "/Users/Martin/Development/trialProjects/creditcards/DbRepos/DbRepos.csproj",
+        "packagesPath": "/Users/Martin/.nuget/packages/",
+        "outputPath": "/Users/Martin/Development/trialProjects/creditcards/DbRepos/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/Martin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/Martin/Development/trialProjects/creditcards/Configuration/Configuration.csproj": {
+                "projectPath": "/Users/Martin/Development/trialProjects/creditcards/Configuration/Configuration.csproj"
+              },
+              "/Users/Martin/Development/trialProjects/creditcards/DbContext/DbContext.csproj": {
+                "projectPath": "/Users/Martin/Development/trialProjects/creditcards/DbContext/DbContext.csproj"
+              },
+              "/Users/Martin/Development/trialProjects/creditcards/DbModels/DbModels.csproj": {
+                "projectPath": "/Users/Martin/Development/trialProjects/creditcards/DbModels/DbModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Martin/Development/trialProjects/creditcards/Models/Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Martin/Development/trialProjects/creditcards/Models/Models.csproj",
+        "projectName": "Models",
+        "projectPath": "/Users/Martin/Development/trialProjects/creditcards/Models/Models.csproj",
+        "packagesPath": "/Users/Martin/.nuget/packages/",
+        "outputPath": "/Users/Martin/Development/trialProjects/creditcards/Models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/Martin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/Martin/Development/trialProjects/creditcards/Configuration/Configuration.csproj": {
+                "projectPath": "/Users/Martin/Development/trialProjects/creditcards/Configuration/Configuration.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Martin/Development/trialProjects/creditcards/Services/Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Martin/Development/trialProjects/creditcards/Services/Services.csproj",
+        "projectName": "Services",
+        "projectPath": "/Users/Martin/Development/trialProjects/creditcards/Services/Services.csproj",
+        "packagesPath": "/Users/Martin/.nuget/packages/",
+        "outputPath": "/Users/Martin/Development/trialProjects/creditcards/Services/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/Martin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/Martin/Development/trialProjects/creditcards/Configuration/Configuration.csproj": {
+                "projectPath": "/Users/Martin/Development/trialProjects/creditcards/Configuration/Configuration.csproj"
+              },
+              "/Users/Martin/Development/trialProjects/creditcards/DbRepos/DbRepos.csproj": {
+                "projectPath": "/Users/Martin/Development/trialProjects/creditcards/DbRepos/DbRepos.csproj"
+              },
+              "/Users/Martin/Development/trialProjects/creditcards/Models/Models.csproj": {
+                "projectPath": "/Users/Martin/Development/trialProjects/creditcards/Models/Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

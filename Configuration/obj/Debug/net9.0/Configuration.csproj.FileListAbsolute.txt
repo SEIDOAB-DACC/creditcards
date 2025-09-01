@@ -1,0 +1,13 @@
+/Users/Martin/Development/trialProjects/creditcards/Configuration/bin/Debug/net9.0/Configuration.deps.json
+/Users/Martin/Development/trialProjects/creditcards/Configuration/bin/Debug/net9.0/Configuration.dll
+/Users/Martin/Development/trialProjects/creditcards/Configuration/bin/Debug/net9.0/Configuration.pdb
+/Users/Martin/Development/trialProjects/creditcards/Configuration/obj/Debug/net9.0/Configuration.csproj.AssemblyReference.cache
+/Users/Martin/Development/trialProjects/creditcards/Configuration/obj/Debug/net9.0/Configuration.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Martin/Development/trialProjects/creditcards/Configuration/obj/Debug/net9.0/Configuration.AssemblyInfoInputs.cache
+/Users/Martin/Development/trialProjects/creditcards/Configuration/obj/Debug/net9.0/Configuration.AssemblyInfo.cs
+/Users/Martin/Development/trialProjects/creditcards/Configuration/obj/Debug/net9.0/Configuration.csproj.CoreCompileInputs.cache
+/Users/Martin/Development/trialProjects/creditcards/Configuration/obj/Debug/net9.0/Configuration.sourcelink.json
+/Users/Martin/Development/trialProjects/creditcards/Configuration/obj/Debug/net9.0/Configuration.dll
+/Users/Martin/Development/trialProjects/creditcards/Configuration/obj/Debug/net9.0/refint/Configuration.dll
+/Users/Martin/Development/trialProjects/creditcards/Configuration/obj/Debug/net9.0/Configuration.pdb
+/Users/Martin/Development/trialProjects/creditcards/Configuration/obj/Debug/net9.0/ref/Configuration.dll
