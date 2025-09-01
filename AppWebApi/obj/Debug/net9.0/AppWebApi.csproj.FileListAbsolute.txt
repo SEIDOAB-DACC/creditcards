@@ -32,3 +32,10 @@
 /Users/Martin/Development/trialProjects/creditcards/AppWebApi/obj/Debug/net9.0/AppWebApi.pdb
 /Users/Martin/Development/trialProjects/creditcards/AppWebApi/obj/Debug/net9.0/AppWebApi.genruntimeconfig.cache
 /Users/Martin/Development/trialProjects/creditcards/AppWebApi/obj/Debug/net9.0/ref/AppWebApi.dll
+/Users/Martin/Development/trialProjects/creditcards/AppWebApi/bin/Debug/net9.0/Microsoft.AspNetCore.JsonPatch.dll
+/Users/Martin/Development/trialProjects/creditcards/AppWebApi/bin/Debug/net9.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+/Users/Martin/Development/trialProjects/creditcards/AppWebApi/bin/Debug/net9.0/Newtonsoft.Json.dll
+/Users/Martin/Development/trialProjects/creditcards/AppWebApi/bin/Debug/net9.0/Newtonsoft.Json.Bson.dll
+/Users/Martin/Development/trialProjects/creditcards/AppWebApi/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/Martin/Development/trialProjects/creditcards/AppWebApi/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/Martin/Development/trialProjects/creditcards/AppWebApi/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
