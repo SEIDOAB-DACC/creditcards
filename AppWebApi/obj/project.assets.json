@@ -4242,11 +4242,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Martin/Development/trialProjects/creditcards/AppWebApi/AppWebApi.csproj",
+      "projectUniqueName": "/Users/Martin/Development/projects/DataAccess_and_WebApi_Aug_2025/creditcards/AppWebApi/AppWebApi.csproj",
       "projectName": "AppWebApi",
-      "projectPath": "/Users/Martin/Development/trialProjects/creditcards/AppWebApi/AppWebApi.csproj",
+      "projectPath": "/Users/Martin/Development/projects/DataAccess_and_WebApi_Aug_2025/creditcards/AppWebApi/AppWebApi.csproj",
       "packagesPath": "/Users/Martin/.nuget/packages/",
-      "outputPath": "/Users/Martin/Development/trialProjects/creditcards/AppWebApi/obj/",
+      "outputPath": "/Users/Martin/Development/projects/DataAccess_and_WebApi_Aug_2025/creditcards/AppWebApi/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/Martin/.nuget/NuGet/NuGet.Config"
@@ -4262,14 +4262,14 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/Users/Martin/Development/trialProjects/creditcards/Configuration/Configuration.csproj": {
-              "projectPath": "/Users/Martin/Development/trialProjects/creditcards/Configuration/Configuration.csproj"
+            "/Users/Martin/Development/projects/DataAccess_and_WebApi_Aug_2025/creditcards/Configuration/Configuration.csproj": {
+              "projectPath": "/Users/Martin/Development/projects/DataAccess_and_WebApi_Aug_2025/creditcards/Configuration/Configuration.csproj"
             },
-            "/Users/Martin/Development/trialProjects/creditcards/Models/Models.csproj": {
-              "projectPath": "/Users/Martin/Development/trialProjects/creditcards/Models/Models.csproj"
+            "/Users/Martin/Development/projects/DataAccess_and_WebApi_Aug_2025/creditcards/Models/Models.csproj": {
+              "projectPath": "/Users/Martin/Development/projects/DataAccess_and_WebApi_Aug_2025/creditcards/Models/Models.csproj"
             },
-            "/Users/Martin/Development/trialProjects/creditcards/Services/Services.csproj": {
-              "projectPath": "/Users/Martin/Development/trialProjects/creditcards/Services/Services.csproj"
+            "/Users/Martin/Development/projects/DataAccess_and_WebApi_Aug_2025/creditcards/Services/Services.csproj": {
+              "projectPath": "/Users/Martin/Development/projects/DataAccess_and_WebApi_Aug_2025/creditcards/Services/Services.csproj"
             }
           }
         }

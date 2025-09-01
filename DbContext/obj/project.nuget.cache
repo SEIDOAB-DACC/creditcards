@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ayep9WV6zfM=",
+  "dgSpecHash": "rc3e0NxVFLs=",
   "success": true,
-  "projectFilePath": "/Users/Martin/Development/trialProjects/creditcards/DbContext/DbContext.csproj",
+  "projectFilePath": "/Users/Martin/Development/projects/DataAccess_and_WebApi_Aug_2025/creditcards/DbContext/DbContext.csproj",
   "expectedPackageFiles": [
     "/Users/Martin/.nuget/packages/azure.core/1.47.1/azure.core.1.47.1.nupkg.sha512",
     "/Users/Martin/.nuget/packages/azure.extensions.aspnetcore.configuration.secrets/1.4.0/azure.extensions.aspnetcore.configuration.secrets.1.4.0.nupkg.sha512",

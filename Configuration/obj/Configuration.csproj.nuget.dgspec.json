@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/Martin/Development/trialProjects/creditcards/Configuration/Configuration.csproj": {}
+    "/Users/Martin/Development/projects/DataAccess_and_WebApi_Aug_2025/creditcards/Configuration/Configuration.csproj": {}
   },
   "projects": {
-    "/Users/Martin/Development/trialProjects/creditcards/Configuration/Configuration.csproj": {
+    "/Users/Martin/Development/projects/DataAccess_and_WebApi_Aug_2025/creditcards/Configuration/Configuration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Martin/Development/trialProjects/creditcards/Configuration/Configuration.csproj",
+        "projectUniqueName": "/Users/Martin/Development/projects/DataAccess_and_WebApi_Aug_2025/creditcards/Configuration/Configuration.csproj",
         "projectName": "Configuration",
-        "projectPath": "/Users/Martin/Development/trialProjects/creditcards/Configuration/Configuration.csproj",
+        "projectPath": "/Users/Martin/Development/projects/DataAccess_and_WebApi_Aug_2025/creditcards/Configuration/Configuration.csproj",
         "packagesPath": "/Users/Martin/.nuget/packages/",
-        "outputPath": "/Users/Martin/Development/trialProjects/creditcards/Configuration/obj/",
+        "outputPath": "/Users/Martin/Development/projects/DataAccess_and_WebApi_Aug_2025/creditcards/Configuration/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/Martin/.nuget/NuGet/NuGet.Config"
