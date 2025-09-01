@@ -30,10 +30,23 @@ builder.Services.Configure<VersionOptions>(options => VersionOptions.ReadFromAss
 builder.Services.AddDbContext<MainDbContext>(options =>
 {
     // SQLSERVER
-    var connectionString = builder.Configuration["ConnectionStrings:SqlServerDocker"];  //alternative to below
-    //var connectionString = builder.Configuration.GetConnectionString("SqlServerDocker");
-    options.UseSqlServer(connectionString, options => options.EnableRetryOnFailure());
+    //var connectionString = builder.Configuration["ConnectionStrings:SqlServerDocker"];  //alternative to below
+//    var connectionString = builder.Configuration.GetConnectionString("SqlServerDocker");
+//    options.UseSqlServer(connectionString, options => options.EnableRetryOnFailure());
+    // SQLSERVER END
+
+    // MYSQL
+//    var connectionString = builder.Configuration.GetConnectionString("MySqlDocker");
+//    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString),
+//    b => b.SchemaBehavior(Pomelo.EntityFrameworkCore.MySql.Infrastructure.MySqlSchemaBehavior.Translate, (schema, table) => $"{schema}_{table}"));
+    // MYSQL END
+
+    // POSTGRESQL
+    var connectionString = builder.Configuration.GetConnectionString("PostgreSqlDocker");
+    options.UseNpgsql(connectionString);
+    // POSTGRESQL END
 });
+
 
 
 
