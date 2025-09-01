@@ -1,3 +1,4 @@
+using Configuration;
 using Configuration.Options;
 using DbContext;
 using DbRepos;
@@ -50,6 +51,9 @@ builder.Services.AddSwaggerGen(c =>
         Description = "This is an API used in Seido's various software developer training courses."
     });
 });
+
+// adding encryption
+builder.Services.AddTransient<Encryptions>();
 
 //Inject DbRepos and Services
 builder.Services.AddScoped<AdminDbRepos>();
