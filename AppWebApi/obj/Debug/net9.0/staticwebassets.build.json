@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "LKXxw7EBtphNCJncpvPq7Dh8qbeQ8J2FbqYTVj8UkQ8=",
+  "Source": "AppWebApi",
+  "BasePath": "_content/AppWebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
