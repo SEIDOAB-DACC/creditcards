@@ -1,3 +1,5 @@
+using Configuration.Options;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -5,6 +7,15 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers().AddNewtonsoftJson(options =>
     options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
 builder.Services.AddEndpointsApiExplorer();
+
+var currentDir = Directory.GetCurrentDirectory();
+var assembly = System.Reflection.Assembly.Load("Configuration");
+builder.Configuration.SetBasePath(Path.Combine(currentDir, "../AppWebApi"))
+        .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+        .AddUserSecrets(assembly);
+
+// adding verion info
+builder.Services.Configure<VersionOptions>(options =>VersionOptions.ReadFromAssembly(options));
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddSwaggerGen(c =>
