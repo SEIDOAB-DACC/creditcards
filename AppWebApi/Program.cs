@@ -14,6 +14,9 @@ builder.Configuration.SetBasePath(Path.Combine(currentDir, "../AppWebApi"))
         .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
         .AddUserSecrets(assembly);
 
+builder.Services.Configure<AesEncryptionOptions>(
+    options => builder.Configuration.GetSection(AesEncryptionOptions.Position).Bind(options));
+
 // adding verion info
 builder.Services.Configure<VersionOptions>(options =>VersionOptions.ReadFromAssembly(options));
 
