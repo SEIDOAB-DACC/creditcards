@@ -86,9 +86,9 @@ public class CreditCard
 [Route("api/[controller]")]
 public class CreditCardsController : ControllerBase
 {
-    private readonly ICreditCardService _service;
-    public CreditCardsController(ICreditCardService service)
+    public AdminController(IOptions<VersionOptions> versionOptions, IAdminService service)
     {
+        _versionOptions = versionOptions.Value;
         _service = service;
     }
 
@@ -96,7 +96,7 @@ public class CreditCardsController : ControllerBase
     [ActionName("Seed")]
     public async Task<IActionResult> Seed(int count)
     {
-        await _service.SeedRandomCreditCardsAsync(count);
+        await _service.SeedAsync(count);
         return Ok($"Seeded {count} credit cards.");
     }
 }
